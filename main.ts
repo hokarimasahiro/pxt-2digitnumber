@@ -41,7 +41,7 @@ namespace num2digits {
                 led.unplot(1, i)
             }
         }
-        dfont = font[wn % 10]
+        dfont = font[wn % 10 >> 0]
         for (let i = 0; i < 5; i++){
             if ((dfont >> (9 - i) & 0x01) == 0x01) {
                 led.plot(3, i)
