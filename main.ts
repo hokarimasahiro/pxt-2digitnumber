@@ -5,7 +5,7 @@
  * display number for 2digits
  */
 //% weight=100 color=#0fbc11 icon=""
-namespace num2digits {
+namespace 数値2桁表示 {
     /**
      * TODO: 2桁の数値を表示する
      * @param n 表示する数値。, eg: 32
