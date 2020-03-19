@@ -1,10 +1,8 @@
 /**
- * このファイルを使って、独自の関数やブロックを定義してください。
- * 詳しくはこちらを参照してください：https://makecode.microbit.org/blocks/custom
  */
 
 /**
- * カスタムブロック
+ * display number for 2digits
  */
 //% weight=100 color=#0fbc11 icon=""
 namespace num2digits {
@@ -12,7 +10,7 @@ namespace num2digits {
      * TODO: 2桁の数値を表示する
      * @param n 表示する数値。, eg: 32
      */
-    //% blockId="show number 2digits" block="show a number %n"
+    //% blockId="2桁の数値を表示する" block="数値を表示 %n"
     //% weight=100 blockGap=8
     export function showNumber(n: number): void {
         const font: number[] = [1023, 31, 765, 703, 927, 951, 1015, 636, 891, 959]
