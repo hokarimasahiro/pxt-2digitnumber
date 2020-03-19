@@ -1,16 +1,13 @@
 /**
- */
-
-/**
- * display number for 2digits
+ * show 2-digit number
  */
 //% weight=100 color=#0fbc11 icon=""
-namespace 数値2桁表示 {
+namespace number2Digits {
     /**
-     * TODO: 2桁の数値を表示する
-     * @param n 表示する数値。, eg: 32
+     * TODO: show 2-digit number
+     * @param n number, eg: 32
      */
-    //% blockId="2桁の数値を表示する" block="数値を表示 %n"
+    //% blockId="show 2-digit number" block="show 2-digit number %n"
     //% weight=100 blockGap=8
     export function showNumber(n: number): void {
         const font: number[] = [1023, 31, 765, 703, 927, 951, 1015, 636, 891, 959]
@@ -24,31 +21,31 @@ namespace 数値2桁表示 {
         led.unplot(2, 1)
         if (n < 0) led.plot(2, 2); else led.unplot(2, 2);
         led.unplot(2, 3)
-        led.unplot(2,4)
+        led.unplot(2, 4)
 
-        dfont = font[Math.trunc (wn/10)]
-        for (let i = 0; i < 5; i++){
+        dfont = font[Math.trunc(wn / 10)]
+        for (let i = 0; i < 5; i++) {
             if ((dfont >> (9 - i) & 0x01) == 0x01) {
                 led.plot(0, i)
             } else {
                 led.unplot(0, i)
             }
-            if ((dfont >> (4-i) & 0x01) == 0x01){
+            if ((dfont >> (4 - i) & 0x01) == 0x01) {
                 led.plot(1, i)
-		    } else {
+            } else {
                 led.unplot(1, i)
             }
         }
         dfont = font[wn % 10 >> 0]
-        for (let i = 0; i < 5; i++){
+        for (let i = 0; i < 5; i++) {
             if ((dfont >> (9 - i) & 0x01) == 0x01) {
                 led.plot(3, i)
             } else {
                 led.unplot(3, i)
             }
-            if ((dfont >> (4-i) & 0x01) == 0x01){
+            if ((dfont >> (4 - i) & 0x01) == 0x01) {
                 led.plot(4, i)
-	        } else {
+            } else {
                 led.unplot(4, i)
             }
         }

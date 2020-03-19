@@ -1,1 +1,1 @@
-数値2桁表示.showNumber(49)
+number2Digits.showNumber(49)
