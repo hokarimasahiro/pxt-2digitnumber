@@ -1,1 +1,1 @@
-number2Digits.showNumber(49)
+show2DigitNumber.showNumber(49)

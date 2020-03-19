@@ -2,7 +2,7 @@
  * show 2-digit number
  */
 //% weight=100 color=#0fbc11 icon=""
-namespace number2Digits {
+namespace show2DigitNumber {
     /**
      * TODO: show 2-digit number
      * @param n number, eg: 32
