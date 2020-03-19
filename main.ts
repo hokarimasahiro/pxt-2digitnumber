@@ -7,8 +7,8 @@ namespace show2DigitNumber {
      * show 2-digit number
      * @param n number, eg: 17
      */
-    //% blockId="show2Number" block="show2Number %n"
-    export function show2Number(n: number): void {
+    //% blockId="showNumber" block="showNumber %n"
+    export function showNumber(n: number): void {
         const font: number[] = [1023, 31, 765, 703, 927, 951, 1015, 636, 891, 959]
         let dfont: number
         let wn = Math.abs(n)

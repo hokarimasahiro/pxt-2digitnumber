@@ -1,1 +1,1 @@
-show2DigitNumber.show2Number(17)
+show2DigitNumber.showNumber(17)
