@@ -5,7 +5,7 @@
 namespace show2DigitNumber {
     /**
      * show 2-digit number
-     * @param n number, eg: 32
+     * @param n number, eg: 17
      */
     //% blockId="show2Number" block="show2Number %n"
     export function show2Number(n: number): void {
