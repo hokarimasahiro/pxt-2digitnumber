@@ -7,7 +7,7 @@ namespace show2DigitNumber {
      * show 2-digit number
      * @param n number, eg: 32
      */
-    //% blockId="showNumber" block="showNumber %n"
+    //% blockId=showNumber block=showNumber %n
     //% weight=100 blockGap=8
     export function showNumber(n: number): void {
         const font: number[] = [1023, 31, 765, 703, 927, 951, 1015, 636, 891, 959]
