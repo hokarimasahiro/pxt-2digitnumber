@@ -4,7 +4,7 @@
 //% weight=100 color=#0fbc11 icon="\u2498" block="Number2"
 namespace show2DigitNumber {
     /**
-     * show 2-digit number
+     * todo="show 2-digit number"
      * @param n number, eg: 32
      */
     //% blockId="showNumber" block="showNumber %n"
