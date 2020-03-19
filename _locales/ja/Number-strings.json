@@ -1,5 +1,3 @@
 {
-  "Number2": "2桁",
-  "show2DigitNumber|block": "数値2桁表示",
   "show2DigitNumber.showNumber|block": "数を表示 %n"
 }
