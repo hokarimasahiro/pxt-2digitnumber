@@ -4,9 +4,10 @@
 //% weight=100 color=#0fbc11 icon="\u2498" block="Number2"
 namespace show2DigitNumber {
     /**
-     * todo="show 2-digit number"
+     * show 2-digit number
      * @param n number, eg: 32
      */
+    //% todo="show 2-digit number"
     //% blockId="showNumber" block="showNumber %n"
     export function showNumber(n: number): void {
         const font: number[] = [1023, 31, 765, 703, 927, 951, 1015, 636, 891, 959]
