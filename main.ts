@@ -1,7 +1,7 @@
 /**
  * show 2-digit number
  */
-//% weight=100 color=#0fbc11 icon="\u2498" block="Number2"
+//% weight=100 color=#0fbc11 icon="\u2498" block="2Digit"
 namespace show2DigitNumber {
     /**
      * show 2-digit number
